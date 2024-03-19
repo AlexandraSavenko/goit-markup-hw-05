@@ -593,5 +593,48 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop">
+      <div class="modal">
+        <button type="button" class="modal-btn-close">
+          <svg class="modal-icon-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black-18dp"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <label for="user-name" class="modal-item-lbl">Name</label>
+          <input
+            type="text"
+            name="user-name"
+            id="user-name"
+            class="modal-form-item"
+          />
+          <svg class="modal-form-icon" width="18" height="18">
+            <use href="./images/icons.svg#icon-person-black"></use>
+          </svg>
+          <label for="user-tel" class="modal-item-lbl">Phone</label>
+          <input
+            type="tel"
+            name="user-tel"
+            id="user-tel"
+            class="modal-form-item"
+          />
+          <svg class="modal-form-icon" width="18" height="18">
+            <use href="./images/icons.svg#icon-phone-black"></use>
+          </svg>
+          <label for="user-email" class="modal-item-lbl">Email</label>
+          <input
+            type="email"
+            name="user-email"
+            id="user-email"
+            class="modal-form-item"
+          />
+          <svg class="modal-form-icon" width="18" height="18">
+            <use href="./images/icons.svg#icon-email-black"></use>
+          </svg>
+          <button type="submit" class="modal-send-btn">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
