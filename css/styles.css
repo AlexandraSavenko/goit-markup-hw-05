@@ -530,3 +530,10 @@ img {
   margin: 0 auto;
   justify-content: center;
 }
+.modal-form-icon {
+  position: absolute;
+  left: 24px;
+}
+.modal-item-wrap {
+  /* position: relative; */
+}
