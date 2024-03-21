@@ -591,10 +591,11 @@
             </li>
           </ul>
         </div>
+        <form action="footer-form"></form>
       </div>
     </footer>
     <div class="backdrop">
-
+<!-- is-open -->
       <div class="modal">
         <button type="button" class="modal-btn-close">
           <svg class="modal-icon-close" width="8" height="8">
@@ -652,6 +653,12 @@
           <div class="modal-item-wrap">
             <label for="comment" class="modal-item-lbl">Comment</label>
             <textarea name="user-comment" id="comment" rows="10" class="modal-text" placeholder="Text input"></textarea>
+          </div>
+          <div class="modal-item-wrap">
+            <input type="checkbox" name="privacy" id="privacy" class="modal-check visually-hidden">
+            <label for="privacy" class="check-text"><span><svg class="modal-check-icon" width="10" height="8">
+              <use href="./images/icons.svg#icon-Vector"></use>
+            </svg></span>I accept the terms and conditions of the <a href="" class="check-link">Privacy Policy</a></label>
           </div>
           <button type="submit" class="modal-send-btn">Send</button>
         </form>
