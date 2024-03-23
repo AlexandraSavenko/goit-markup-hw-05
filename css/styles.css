@@ -651,11 +651,11 @@ color: #ffffff;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* ====margin bottoms for inputs================= */
-/* .modal-item-wrap {
+.modal-item-wrap {
   margin-bottom: 8px;
-} */
+}
 .modal-item-lbl {
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 
 }
 .textarea {
@@ -720,11 +720,12 @@ color: #ffffff;
   fill: #f4f4fd;
 }
 .modal-checkbox-spn {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
 }
-.modal-check:checked + .modal-checkbox-spn {
+.modal-check:checked .modal-checkbox-spn {
   background-color: #404bbf;
 }
 .modal-check-icon {
