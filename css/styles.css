@@ -493,8 +493,8 @@ img {
 .subscribe-btn {
   border-radius: 4px;
   padding: 8px 24px;
-  /* width: 165px;
-  height: 40px; */
+  min-width: 165px;
+  /* height: 40px; */
   background: #4d5ae5;
   display: flex;
   align-items: center;
@@ -509,6 +509,7 @@ img {
   color: #fff;
   fill: #fff;
   border: none;
+  cursor: pointer;
 }
 .backdrop {
   width: 100%;
@@ -593,7 +594,12 @@ img {
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 12px;
+  line-height: 2;
+letter-spacing: 0.04em;
+color: #ffffff;
 }
+
 .modal-form-item:focus {
   border-color: #4d5ae5;
 }
@@ -628,7 +634,10 @@ img {
   display: block;
   cursor: pointer;
   border: none;
-   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-subscribe-icon {
+  margin-left: 16px;
 }
 .modal-form-icon {
   position: absolute;
@@ -638,8 +647,12 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* ====margin bottoms for inputs================= */
-.modal-item-wrap {
+/* .modal-item-wrap {
   margin-bottom: 8px;
+} */
+.modal-item-lbl {
+  margin-bottom: 8px;
+
 }
 .textarea {
   margin-bottom: 16px;
