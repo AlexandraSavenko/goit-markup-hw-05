@@ -456,6 +456,10 @@ img {
 }
 
 /* footer-form */
+.footer-form-container {
+  display: flex;
+  flex-direction: column;
+}
 .footer-content-contactsbox {
   margin-right: 80px;
 }
